@@ -1,0 +1,69 @@
+# Core dependencies
+python-dotenv
+pydantic
+fastapi
+uvicorn
+
+# Document processing
+unstructured
+python-docx
+openpyxl
+pdf2image
+pytesseract
+Pillow
+
+# Audio processing
+openai-whisper
+webrtcvad
+sounddevice
+websockets
+
+# Vector stores and embeddings
+chromadb
+faiss-cpu
+sentence-transformers
+
+# ML and Deep Learning
+torch
+transformers
+accelerate
+bitsandbytes
+splade
+
+# LLM specific
+anthropic  
+openai 
+auto-gptq  
+optimum  
+
+# Validation and NLP
+spacy
+nltk
+regex
+
+# Graph and State Management
+networkx
+redis  
+pydantic-settings
+
+# Web Search
+tavily-python
+duckduckgo-search
+
+# Metrics and Monitoring
+prometheus-client
+wandb
+
+# Development and Testing
+pytest
+pytest-asyncio
+black
+isort
+mypy
+
+# Utilities
+tqdm
+loguru
+tenacity
+python-jose  
+typing_extensions
