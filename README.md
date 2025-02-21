@@ -16,7 +16,7 @@ An advanced Risk Analysis RAG system featuring confidence-based routing, hybrid 
 <p align="center">
   <img src="RiskRAG.png" alt="System Architecture" width="800"/>
   <br>
-  <em>Risk RAG System Architecture</em>
+  
 </p>
 
 <table>
