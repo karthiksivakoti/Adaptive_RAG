@@ -21,23 +21,26 @@ An advanced Risk Analysis RAG system featuring confidence-based routing, hybrid 
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="25%" valign="top">
 
-### Core Components
-- **LLM & Embeddings:**
-  - Mistral & Mixtral models
+### LLM & Embeddings
+- **Core Models:**
+  - Mistral & Mixtral
   - BGE embeddings
-  - SPLADE sparse encodings
-  - Anthropic API integration
-  - HuggingFace Transformers
+  - SPLADE sparse
+  - Anthropic API
+  - HuggingFace
+  - Sentence Transformers
 
-- **Vector Storage & Processing:**
+</td>
+<td width="25%" valign="top">
+
+### Storage & Backend
+- **Vector Stores:**
   - ChromaDB
   - FAISS
   - PyTorch
-  - Sentence Transformers
-
-- **Backend & API:**
+- **API Layer:**
   - Python 3.8+
   - FastAPI
   - Pydantic
@@ -45,39 +48,37 @@ An advanced Risk Analysis RAG system featuring confidence-based routing, hybrid 
   - aiohttp
   - asyncio
 
+</td>
+<td width="25%" valign="top">
+
+### Processing & Tools
 - **Document Processing:**
   - Unstructured
   - PyMuPDF
   - python-docx
   - Tesseract OCR
   - OpenAI Whisper
-
-</td>
-<td width="50%" valign="top">
-
-### Supporting Infrastructure
-- **Monitoring & Validation:**
-  - Prometheus
-  - wandb
-  - MLflow
-  - loguru
-
-- **Testing & Quality:**
-  - pytest
-  - pytest-asyncio
+- **Development:**
+  - poetry
+  - pip-tools
+  - pytest suite
   - black
   - isort
   - mypy
 
-- **Development Tools:**
-  - poetry
-  - pip-tools
-  - requirements.txt
+</td>
+<td width="25%" valign="top">
 
+### Monitoring & Ops
+- **Monitoring:**
+  - Prometheus
+  - wandb
+  - MLflow
+  - loguru
 - **Error Handling:**
   - Circuit breakers
   - Retry mechanisms
-  - Error categorization
+  - Error categories
   - Graceful degradation
 
 </td>
