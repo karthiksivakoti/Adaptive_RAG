@@ -126,30 +126,6 @@ An advanced Risk Analysis RAG system featuring confidence-based routing, hybrid 
 └─────────────────┘    └──────────────┘    └───────────────┘
 ```
 
-## ⚙️ Quick Start
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/risk-rag-system.git
-cd risk-rag-system
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Configure environment:
-```bash
-cp .env.example .env
-# Edit .env with your API keys and configurations
-```
-
-4. Start the system:
-```bash
-python -m risk_rag_system.main
-```
-
 ## 🔧 Usage Example
 
 ```python
